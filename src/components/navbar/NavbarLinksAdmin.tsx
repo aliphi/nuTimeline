@@ -53,7 +53,7 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 			p='10px'
 			borderRadius='30px'
 			boxShadow={shadow}>
-			<SearchBar
+			{/* <SearchBar
 				mb={() => {
 					if (secondary) {
 						return { base: '10px', md: 'unset' };
@@ -62,7 +62,7 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 				}}
 				me='10px'
 				borderRadius='30px'
-			/>
+			/> */}
 			<Flex
 				bg={ethBg}
 				display={secondary ? 'flex' : 'none'}
@@ -84,10 +84,10 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 			</Flex>
 			<SidebarResponsive routes={routes} />
 			<Menu>
-				<MenuButton p='0px'>
+				{/* <MenuButton p='0px'>
 					<Icon mt='6px' as={MdNotificationsNone} color={navbarIcon} w='18px' h='18px' me='10px' />
-				</MenuButton>
-				<MenuList
+				</MenuButton> */}
+				{/* <MenuList
 					boxShadow={shadow}
 					p='20px'
 					borderRadius='20px'
@@ -113,14 +113,14 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 							<ItemContent info='Horizon Design System Free' />
 						</MenuItem>
 					</Flex>
-				</MenuList>
+				</MenuList> */}
 			</Menu>
 
 			<Menu>
-				<MenuButton p='0px'>
+				{/* <MenuButton p='0px'>
 					<Icon mt='6px' as={MdInfoOutline} color={navbarIcon} w='18px' h='18px' me='10px' />
-				</MenuButton>
-				<MenuList
+				</MenuButton> */}
+				{/* <MenuList
 					boxShadow={shadow}
 					p='20px'
 					me={{ base: '30px', md: 'unset' }}
@@ -154,7 +154,7 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 							</Button>
 						</Link>
 					</Flex>
-				</MenuList>
+				</MenuList> */}
 			</Menu>
 
 			<Button

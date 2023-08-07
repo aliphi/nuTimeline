@@ -353,12 +353,12 @@ export const pieChartData = [63, 25, 12];
 
 export const lineChartDataTotalSpent = [
   {
-    name: "Revenue",
-    data: [50, 64, 48, 66, 49, 68],
+    name: "NU.CA",
+    data: [60, 60, 60, 60, 60, 60, 60, 60],
   },
   {
-    name: "Profit",
-    data: [30, 40, 24, 46, 20, 46],
+    name: "NU.APP",
+    data: [5, 5, 5, 5, 5, 5, 5, 5],
   },
 ];
 
@@ -404,7 +404,7 @@ export const lineChartOptionsTotalSpent: ApexOptions = {
   },
   xaxis: {
     // type: "numeric",
-    categories: ["SEP", "OCT", "NOV", "DEC", "JAN", "FEB"],
+    categories: ["AUG1", "AUG2", "AUG3", "AUG4", "SEP1", "SEP2", "SEP3", "SEP4"],
     labels: {
       style: {
         colors: "#A3AED0",
